@@ -6,8 +6,54 @@
   <link href="./output.css" rel="stylesheet">
 </head>
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  <!-- # tailwind basic-->
+   <!-- Typography-->
+    <p class="font-sans"> this text use font family</p>
+    <p class="font-serif"> this text use font family</p>
+    <p class="font-mono"> this text use font family</p>
+
+    <!-- size -->
+      <p class="text-xs">extra small text</p>
+      <p class="text-sm">extra small text</p>
+      <p class="text-base">extra small text</p>
+      <p class="text-lg">extra small text</p>
+      <p class="text-xl">extra small text</p>
+
+
+      <!--Responsive-->
+      <p class="text-base md:text-xl lg:text-2xl">Responsive font size</p>
+
+      <!--Different font sizes-->
+      <p class="text-3xl">extra larage sizes</p>
+      <p class="text-4xl">extra larage sizes</p>
+      <p class="text-6xl">extra larage sizes</p>
+      <p class="text-7xl">extra larage sizes</p>
+      <p class="text-10xl">extra larage sizes</p>
+
+
+      <!--other classes-->
+      <h1 class="text-3xl font-bold underline">
+        sample <span class="font-thin">title</span>
+      </h1>
+      <p class="leading-normal"><span class="font-bold"> Lorem ipsum dolor,</span> sit amet consectetur adipisicing elit. Exercitationem aliquam doloribus sapiente sunt incidunt. Cupiditate sapiente ut iure possimus ratione reprehenderit, voluptate ipsam? Sapiente, quam? Quae rem labore doloremque consequuntur.
+       <span class="font-extrabold"> Lorem ipsum dolor sit ametspan </span> consectetur adipisicing elit. Molestiae cupiditate pariatur inventore accusamus itaque excepturi. Esse, molestias maxime debitis odio est commodi amet quia. Optio, iure ullam? Quibusdam, ut illum?
+      </p>
+
+      <!--colors-->
+   <div class="relative">
+       <div class="h-90 bg-green-50"></div>
+        <div class="h-8 bg-green-100"></div>
+        <div class="h-8 bg-green-200"></div>
+         <div class="h-8 bg-green-300"></div>
+         <p class="text-gray-600">text gray</p>
+
+         <!--padding margin -->
+         <button class="bg-red-400 px-4 py-5  text-white text-2xl  absolute  top-10 rounded-3xl border-8 border-red-700 mx-20 my-20 hover:bg-blue-700 hover:border-8 hover:border-blue-800
+"> click me</button>
+<!-- border values like 02,4,8-->
+   </div>
+      
+
 </body>
+
 </html>
